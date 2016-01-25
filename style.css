@@ -1,0 +1,51 @@
+.mainContainer {
+	height: 1000px;
+	width: 600px;
+	background-color: #E4C19C;
+	margin: auto;
+}
+
+.secondContainer {
+	height: 950px;
+	width: 550px;
+	background-color: #E41233;
+	margin-top: 30px;
+}
+
+.circleContainer {
+	display: flex;	
+	flex-wrap: wrap;
+	width: 150px;
+	margin: auto;
+
+}
+
+.circles {
+	display: flex;
+	justify-content: center;
+
+	font-weight: bolder;
+	font-size: 28px;
+	margin-top: 12px;
+	flex-direction: row;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: black;
+	color: red;
+}
+
+.diehard {
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+}
+
+#Lobby {
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.number {
+	margin-top: 10px;
+}
